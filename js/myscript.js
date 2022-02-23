@@ -51,5 +51,17 @@ userBtnGen.addEventListener('click', function() {
     
     userInputName.value = "";
     userInputDistance.value = "";
-    userInputSelect.value = 1;
+    userInputSelect.value = 2;
+});
+
+
+
+const userBtnDelete = document.getElementById('my-btn-delete');
+userBtnDelete.addEventListener('click', function() {
+    document.getElementById('my-section-ticket').classList.remove('d-block');
+    document.getElementById('my-section-ticket').classList.add('d-none');
+    
+    userInputName.value = "";
+    userInputDistance.value = "";
+    userInputSelect.value = 2;
 });
