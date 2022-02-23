@@ -1,0 +1,21 @@
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.my-bg-fucsia {
+    background-color: #b91450;
+}
+
+.my-text-fucsia {
+    color: #b91450;
+}
+
+.my-border-input {
+    border: 1px solid #b91450;
+    border-radius: 5px;
+}
+
+.my-bg-btn {
+    background-color: rgb(208, 208, 208);
+}
