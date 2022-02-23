@@ -24,7 +24,7 @@
                                 <p class="my-text-fucsia">Nome Cognome</p>
                             </div>
                             <div class="col-12">
-                                <input class="text-center my-border-input" type="text">
+                                <input id="my-input-name" class="text-center my-border-input" type="text">
                             </div>
                         </div>
                     </div>
@@ -35,7 +35,7 @@
                                 <p class="my-text-fucsia">Km da percorrere</p>
                             </div>
                             <div class="col-12">
-                                <input class="text-center my-border-input" type="text">
+                                <input id="my-input-distance" class="text-center my-border-input" type="text">
                             </div>
                         </div>
                     </div>
@@ -48,10 +48,9 @@
                             <div class="col-12">
                                 <div class="input-group">
                                     <select class="form-select" id="inputGroupSelect">
-                                    <option selected>Scegli...</option>
-                                    <option value="1">Minorenne</option>
-                                    <option value="2">Standard</option>
-                                    <option value="3">Over 65</option>
+                                        <option value="1">Minorenne</option>
+                                        <option value="2">Standard</option>
+                                        <option value="3">Over 65</option>
                                     </select>
                                 </div>
                             </div>
@@ -59,8 +58,8 @@
                     </div>
 
                     <div class="col-12">
-                        <button class="fw-bold py-1 px-2 my-bg-btn my-border-input my-text-fucsia">Genera</button>
-                        <button class="fw-bold py-1 px-2 my-bg-btn my-border-input my-text-fucsia">Annulla</button>
+                        <button id="my-btn-gen" class="fw-bold py-1 px-2 my-bg-btn my-border-input my-text-fucsia">Genera</button>
+                        <button id="my-btn-cancel" class="fw-bold py-1 px-2 my-bg-btn my-border-input my-text-fucsia">Annulla</button>
                     </div>
                 </div>
             </div>
@@ -68,7 +67,7 @@
 
 
 
-        <section class="d-none"> 
+        <section id="my-section-ticket" class="d-none"> 
             <h1 class="text-center text-white text-uppercase p-3 fw-bold">Il tuo biglietto</h1>
 
             <div class="container-fluid bg-white p-4 shadow">
