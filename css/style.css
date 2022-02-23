@@ -17,5 +17,13 @@ main {
 }
 
 .my-bg-btn {
-    background-color: rgb(208, 208, 208);
+    background-color: #cccccc;
+}
+
+.my-bg-name-user {
+    background-color: #808080;
+}
+
+.my-border-ticket {
+    border: 1px solid #808080;
 }
